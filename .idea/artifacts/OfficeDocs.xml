@@ -1,0 +1,45 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OfficeDocs">
+    <output-path>$PROJECT_DIR$/out/artifacts/OfficeDocs</output-path>
+    <root id="archive" name="OfficeDocs.war">
+      <element id="javaee-facet-resources" facet="OfficeDocs/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="OfficeDocs" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/onyma/saaj.jar" />
+          <element id="library" level="project" name="Maven: fr.opensagres.xdocreport:fr.opensagres.xdocreport.core:1.0.4" />
+          <element id="library" level="project" name="Maven: fr.opensagres.xdocreport:fr.opensagres.xdocreport.template:1.0.4" />
+          <element id="library" level="project" name="Maven: fr.opensagres.xdocreport:fr.opensagres.xdocreport.document:1.0.4" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/onyma/commons-logging.jar" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.5.10" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/onyma/axis.jar" />
+          <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
+          <element id="library" level="project" name="Maven: org.jboss.weld.servlet:weld-servlet:2.2.4.Final" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:5.0" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/xdoc/docxandfreemarker-1.0.4/libs/freemarker-2.3.20.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/xdoc/docxandfreemarker-1.0.4/libs/fr.opensagres.xdocreport.template.freemarker-1.0.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/onyma/jaxrpc.jar" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.4" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/onyma/wsdl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/onyma/junit.jar" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/xdoc/docxandvelocity-1.0.4/libs/fr.opensagres.xdocreport.document.docx-1.0.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/onyma/activation.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/xdoc/docxandvelocity-1.0.4/libs/fr.opensagres.xdocreport.template.velocity-1.0.4.jar" />
+          <element id="library" level="project" name="Maven: oro:oro:2.0.8" />
+          <element id="library" level="project" name="Maven: fr.opensagres.xdocreport:fr.opensagres.xdocreport.converter:1.0.4" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/onyma/mail.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/onyma/commons-discovery.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../javaRep/onyma/OnymaApi.jar" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.4" />
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.2.4" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
